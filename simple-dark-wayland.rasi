@@ -1,0 +1,105 @@
+/* 
+
+
+----------------------------______________
+ simple-dark theme for rofi, wayland-side. 
+----------------------------______________
+
+
+*/
+* {
+    font:   "Iosevka NFM Light 18";
+
+    bg0:    #1f1d2e;
+    bg1:    #1f1d2e;
+    bg2:    #1f1d2e;
+
+    fg0:    #666666;
+    fg1:    #F6ADff;
+    fg2:    #ffffff;
+
+    background-color:   transparent;
+    text-color:         @fg2;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    background-color:   @bg0;
+        location:       west;
+    width:              600;
+    height:             900;
+    border:             0px;
+    border-color:       transparent;
+    border-radius:      2;
+
+
+}
+
+inputbar {
+    font:       "CaskaydiaCove NF SemiBold 18";
+    padding:    16px;
+    spacing:    0px;
+    children:   [ icon-search, entry ];
+}
+
+icon-search {
+    expand:     false;
+    filename:   "search";
+    size: 0px;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    font:   inherit;
+
+    placeholder         : "                   󰀻";
+    placeholder-color   : @fg2;
+}
+
+message {
+    border:             2px 0 0;
+    border-color:       @bg1;
+    background-color:   @bg1;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    lines:      10;
+    columns:    1;
+
+    fixed-height:   true;
+    border:         1px 0 0;
+    border-color:   @bg1;
+}
+
+element {
+    padding:            8px 16px;
+    spacing:            16px;
+    background-color:   transparent;
+}
+
+element normal active {
+    text-color: @bg2;
+}
+
+element selected normal, element selected active {
+    background-color:   #e0def4;
+    text-color:         @bg1;
+}
+
+element-icon {
+    size:   1em;
+}
+
+element-text {
+    text-color: inherit;
+}
