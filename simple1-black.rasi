@@ -2,7 +2,7 @@
 
 * {
   /* Default background color */
-  background-color: #1d1e20;
+  background-color: #21222c;
   text-color:       #CFBC9A;
   font: "CaskaydiaCove NF SemiLight 15";
 }
@@ -10,10 +10,10 @@
 
 window {
   padding: 1em;
-  border-color: #1d1e20;
+  border-color: #21222c;
   border:       5px;
   border-radius: 10px;
-  background-color: #1d1e20;
+  background-color: #21222c;
 
 }
 
@@ -65,19 +65,19 @@ element,element-text,element-icon, button {
 inputbar {
   margin: 0px 10px;
   spacing: 0.4em;
-  border-color: #1d1e20;
+  border-color: #21222c;
   border:        5px;
-  background-color: #1d1e20;
+  background-color: #21222c;
   children: [entry,overlay,case-indicator];
 }
 
 
 listview, message {
   padding: 0.5em;
-  border-color: #1d1e20;
+  border-color: #21222c;
   border:        5px;
   border-radius: 10px;
-  background-color: #1d1e20;
+  background-color: #21222c;
 
   columns: 1;
   lines:   8;
@@ -86,8 +86,8 @@ listview {
   border:       0px 5px 5px 5px;
   border-radius: 10px 10px 10px 10px;
   spacing: 10px;
-  background-color: #1d1e20;
-  border-color:     #1d1e20;
+  background-color: #21222c;
+  border-color:     #21222c;
   scrollbar:    true;
 }
 
@@ -96,78 +96,78 @@ element {
     border:  5px;
     border-radius: 5px;
     padding: 5px;
-    border-color: #1d1e20;
+    border-color: #21222c;
 }
 element-text {
-    background-color: #1d1e20;
+    background-color: #21222c;
     text-color:       #FFFFFF;
     font: "CaskaydiaCove NF SemiBold";
 }
 
 element normal.normal {
-    background-color: #1d1e20;
+    background-color: #21222c;
     text-color:       #CFBC9A;
 }
 element.normal.urgent {
-    background-color: #1d1e20;
+    background-color: #21222c;
     text-color:       #CFBC9A;
 }
 element.normal.active {
-    background-color: #1d1e20;
+    background-color: #21222c;
     text-color:       #CFBC9A;
 }
 element.selected.normal {
-    background-color: #252528;
-    border-color: #252528;
+    background-color: #45475f;
+    border-color: #45475f;
     text-color:       #CFBC9A;
 }
 element.selected.urgent {
-    background-color: #CFBC9A;
-    border-color: #CFBC9A;
+    background-color: #c15000;
+    border-color: #c15000;
     text-color:       #CFBC9A;
 }
 element.selected.active {
-    background-color: #CFBC9A;
-    border-color: #CFBC9A;
+    background-color: #c15000;
+    border-color: #c15000;
     text-color:       #CFBC9A;
 }
 element.alternate.normal {
-    background-color: #1d1e20;
+    background-color: #21222c;
     text-color:       #CFBC9A;
 }
 element.alternate.urgent {
-    background-color: #1d1e20;
+    background-color: #21222c;
     text-color:       #CFBC9A;
 }
 element.alternate.active {
-    background-color: #1d1e20;
+    background-color: #21222c;
     text-color:       #CFBC9A;
 }
 
 
 element-text.selected.normal {
-    background-color: #252528;   
+    background-color: #45475f;   
     border-color: #CFBC9A;
     text-color:       #ffffff;
     font: "CaskaydiaCove NF SemiBold";
 }
 element-text.selected.urgent {
-    background-color: #CFBC9A;
-    border-color: #CFBC9A;
-    text-color:       #1d1e20;
+    background-color: #c15000;
+    border-color: #c15000;
+    text-color:       #21222c;
     font: "CaskaydiaCove NF SemiBold";
 }
 element-text.selected.active {
-    background-color: #CFBC9A;
-    border-color: #CFBC9A;
-    text-color:       #1d1e20;
+    background-color: #c15000;
+    border-color: #c15000;
+    text-color:       #21222c;
     font: "CaskaydiaCove NF SemiBold";
 }
 scrollbar {
-    width:        4px ;
+    width:        0px ;
     border:       0;
     handle-color: #CFBC9A;
-    handle-width: 8px ;
+    handle-width: 0px ;
     padding:      0;
 }
 mode-switcher {
@@ -178,9 +178,9 @@ mode-switcher {
 button {
     text-color: #CFBC9A;
     border:       0px 0px 5px ;
-    border-color: #1d1e20;
+    border-color: #21222c;
     border-radius:    10px 10px 0 0;
-    background-color: #1d1e20;
+    background-color: #21222c;
     horizontal-align: 0.5;
 }
 button selected.normal {
@@ -188,17 +188,17 @@ button selected.normal {
     margin: 0px;
     padding: 0px;
     border:     5px 5px 5px 5px ;
-    border-color: #1d1e20;
+    border-color: #c15000;
     border-radius:    10px 10px 10px 10px;
-    background-color: #000000;
+    background-color: #c15000;
 }
 
 entry {
-    placeholder: "Search here";
-    placeholder-color: #222325;
-    border-color: #cf8677;
-    background-color: #cf8677;
+    placeholder: "Ride bikes!";
+    placeholder-color: #21222c;
+    text-color: #21222c;
+    background-color: #f1eaac;
     border:        10px;
+    border-color: #f1eaac;
     border-radius: 2px 2px 2px 2px;
-    text-color: #222325;
   }
